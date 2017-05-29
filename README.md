@@ -1,8 +1,14 @@
 ### About this repo:  
 How to package junos automation tools in a Dockerfile on Github, and to publish the Docker image automatically in the docker registery.  
 
+### How to 
 Various tools for junos automation (Python libraries, Ansible ...) packaged in a [Dockerfile](https://github.com/ksator/junos-automation-apps-dockerized/blob/master/Dockerfile) at the root of this repository.  
+
+In order to let know Docker hub when you change your repo, enable docker in your github repo settings (integrations & services). 
+The Docker Hub will then pull down your repository and build a docker images using your Dockerfile and push it onto the Docker Hub so that it is available for others to download. When you commit changes to your git Repo the Docker Hub will keep the Docker Repository up to date.  
+
 A docker image is automated build and published in the [docker registry](https://hub.docker.com/r/ksator/junos-automation-tools/)  
+
 
 ### Usage: 
 To download the image from the Docker registry, use this command:

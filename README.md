@@ -1,5 +1,5 @@
-Various tools for junos automation (Python libraries, Ansible ...) packaged in a Dockerfile at the root of this repository.  
-A docker image is automated, built and published in the docker registry.  
+Various tools for junos automation (Python libraries, Ansible ...) packaged in a [Dockerfile](https://github.com/ksator/junos-automation-apps-dockerized/blob/master/Dockerfile) at the root of this repository.  
+A docker image is automated build and published in the [docker registry](https://hub.docker.com/r/ksator/junos-automation-tools/)  
 
 Usage: 
 To download the image from the Docker registry, use this command:
